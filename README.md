@@ -1,27 +1,20 @@
-# SCT_WD_2
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-# ⏱️ Neon Stopwatch with Clock Hands
+# Run and deploy your AI Studio app
 
-A glowing **Neon Stopwatch Web App** featuring rotating **analog-style clock hands**, vibrant UI, and smooth animations.  
-Built using **HTML, CSS, and JavaScript**, it’s both functional and visually engaging.
+This contains everything you need to run your app locally.
 
----
+View your app in AI Studio: https://ai.studio/apps/drive/1X9Y1vT73SgaSTB975yWjlEXkAP0uwwjs
 
-## ✨ Features
+## Run Locally
 
-- 🌌 Neon-themed dark UI
-- 🕒 Rotating hour, minute, and second hands
-- 🟢 Start, Stop, and Reset functionality
-- 🔁 Smooth transitions and animations
-- 💻 Responsive design — works on all devices
+**Prerequisites:**  Node.js
 
----
 
-## 🛠️ Tech Stack
-
-- HTML5  
-- CSS3 (Animations + Neon glow)  
-- JavaScript (Timer logic + rotation updates)
-
----
-<img width="853" height="766" alt="image" src="https://github.com/user-attachments/assets/84605035-a3a3-4f8e-9bd3-71d9b8842bac" />
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
